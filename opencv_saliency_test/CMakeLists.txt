@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project( sal_speed )
+set( OpenCV_DIR "/home/appltini/opencv_3.3.1/opencv-3.3.1/build")
+find_package(OpenCV 3.3 REQUIRED)
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( sal_speed sal_speed.cpp )
+target_link_libraries( sal_speed ${OpenCV_LIBS} )
