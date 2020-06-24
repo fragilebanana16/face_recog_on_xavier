@@ -15,26 +15,27 @@ cmake -build ..
 make
 ./ELF
 ```
+
 # 4.Results
-#### dface recog Charlie Puth
+#### 4.1 dface recog Charlie Puth
 ![image](https://github.com/fragilebanana16/face_recog_on_xavier/blob/master/screenshots/dface_find_chalie_puth1.png)
 
-![image](https://github.com/fragilebanana16/face_recog_on_xavier/blob/master/screenshots/dface_find_chalie_puth2.png)
+![image](https://github.com/fragilebanana16/face_recog_on_xavier/blob/master/screenshots/dface_find_charlie_puth2.png)
 
-![image](https://github.com/fragilebanana16/face_recog_on_xavier/blob/master/screenshots/dface_find_chalie_puth3.png)
+![image](https://github.com/fragilebanana16/face_recog_on_xavier/blob/master/screenshots/dface_find_charlie_puth3.png)
 
-#### dlib face detection
+#### 4.2 dlib face detection
 ![image](https://github.com/fragilebanana16/face_recog_on_xavier/blob/master/screenshots/dlib_face.png)
 
-#### cv orb pts on building
+#### 4.3 cv orb pts on building
 ![image](https://github.com/fragilebanana16/face_recog_on_xavier/blob/master/screenshots/sal_building_most_pts.png)
 
-#### rasterize
+#### 4.4 rasterize
 ![image](https://github.com/fragilebanana16/face_recog_on_xavier/blob/master/screenshots/rasterize_case.png)
 
-#### pytorch saliency(slow 5 fps on Mac book)
+#### 4.5 pytorch saliency(slow 5 fps on Mac book)
 ![image](https://github.com/fragilebanana16/face_recog_on_xavier/blob/master/screenshots/pytorch_sal_slow_dog.png)
 
-#### yolo3 on face detection(12 fps)
+#### 4.6 yolo3 on face detection(12 fps)
 ![image](https://github.com/fragilebanana16/face_recog_on_xavier/blob/master/screenshots/yolo3_face.png)
 
